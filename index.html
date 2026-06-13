@@ -37,7 +37,60 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/brands.css">
+    <style>
+      /* News List */
+.section-title {
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 12px 20px;
+}
+
+.news-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+}
+
+.news-card img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.news-info {
+    flex: 1;
+}
+
+.news-category {
+    color: #6E6E6E;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.news-time {
+    color: #999;
+    font-size: 12px;
+}
+    </style>
     <!-- LittleLink Extended Stylesheet (Optional) -->
     <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
     <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
