@@ -59,8 +59,21 @@
     display: flex;
     gap: 12px;
     padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
+.news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    background: #5a5a5a;
+}
+
+.news-card:hover .news-title {
+    color: #fff;
+}
 .news-card img {
     width: 100px;
     height: 80px;
@@ -273,16 +286,22 @@
 
     <div class="news-list">
 
-        <div class="news-card">
-            <img src="images/news/beauty-salon-logo.avif" alt="beauty salon game">
-            <div class="news-info">
-                <div class="news-category">Game Baru</div>
-                <div class="news-title">
-                    game Beauty Salon Semakin Pesat di Tahun 2026
-                </div>
-                <div class="news-time">2 jam lalu</div>
-            </div>
+        <a href="https://venom123.io/berita/beauty-salon"
+   class="news-card"
+   target="_blank"
+   rel="noopener noreferrer">
+
+    <img src="images/news/beauty-salon-logo.avif" alt="beauty salon game">
+
+    <div class="news-info">
+        <div class="news-category">Game Baru</div>
+        <div class="news-title">
+            Game Beauty Salon Semakin Pesat di Tahun 2026
         </div>
+        <div class="news-time">2 jam lalu</div>
+    </div>
+
+</a>
 
         <div class="news-card">
             <img src="images/news/count-control-legends-logo.avif" alt="count control legends">
