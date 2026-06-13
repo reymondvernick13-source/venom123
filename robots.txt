@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://venom123.io/sitemap.xml
