@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    min-height:100vh;
+}
+
+.container{
+    max-width:500px;
+    margin:auto;
+    padding-bottom:90px;
+}
+
+/* Header */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    background:#000;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#e11;
+}
+
+.menu-btn{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:1px solid #666;
+    background:none;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+/* Announcement */
+.announcement{
+    background:#f5f5f5;
+    color:#333;
+    padding:10px;
+    font-size:14px;
+}
+
+/* Hero */
+.hero{
+    min-height:220px;
+    background:
+    linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1542751371-adc38448a05e");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    color:#00c8ff;
+    font-size:34px;
+    font-weight:900;
+}
+
+.hero p{
+    margin-top:10px;
+    color:#ffe066;
+}
+
+/* Buttons */
+.auth-buttons{
+    display:flex;
+    gap:8px;
+    padding:10px;
+}
+
+.btn{
+    flex:1;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.login{
+    background:white;
+    color:black;
+}
+
+.register{
+    background:#222;
+    color:white;
+    border:1px solid #555;
+}
+
+/* Categories */
+.categories{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    text-align:center;
+    padding:12px 8px;
+    border-top:1px solid #333;
+    border-bottom:1px solid #333;
+}
+
+.category{
+    font-size:12px;
+}
+
+.category span{
+    display:block;
+    font-size:28px;
+    margin-bottom:8px;
+}
+
+.category.active{
+    color:#ffcb3c;
+}
+
+/* Results */
+.result-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+    padding:15px;
+}
+
+.result-card{
+    background:#1b1b1b;
+    border:2px solid #b89345;
+    border-radius:8px;
+    text-align:center;
+    overflow:hidden;
+}
+
+.result-card h4{
+    background:#282828;
+    padding:10px 5px;
+    font-size:12px;
+}
+
+.number{
+    padding:25px 10px;
+    font-size:38px;
+    font-weight:bold;
+    color:#555;
+}
+
+.result-card span{
+    display:block;
+    background:#b89345;
+    color:black;
+    padding:8px;
+    font-size:11px;
+}
+
+/* Dots */
+.dots{
+    display:flex;
+    justify-content:center;
+    gap:8px;
+    margin-bottom:20px;
+}
+
+.dots span{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background:#666;
+}
+
+.dots .active{
+    background:white;
+}
+
+/* Jackpot */
+.jackpot{
+    padding:15px;
+    text-align:center;
+}
+
+.jackpot-title{
+    background:#333;
+    padding:8px;
+    width:70%;
+    margin:auto;
+    border-radius:4px;
+    font-size:13px;
+}
+
+.jackpot-value{
+    margin-top:15px;
+    font-size:clamp(24px,6vw,48px);
+    font-weight:bold;
+}
+
+/* Payments */
+.payments{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    padding:15px;
+}
+
+.payments div{
+    background:#222;
+    border:1px solid #444;
+    text-align:center;
+    padding:12px;
+    border-radius:6px;
+}
+
+/* Bottom Nav */
+.bottom-nav{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#0c0c0c;
+    display:flex;
+    justify-content:space-around;
+    border-top:1px solid #333;
+}
+
+.bottom-nav a{
+    flex:1;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+.bottom-nav a.active{
+    background:#3a1b00;
+    color:#ffcb3c;
+}
+
+.bottom-nav span{
+    font-size:20px;
+}
+
+.bottom-nav small{
+    font-size:11px;
+}
+
+/* Responsive */
+@media (max-width:480px){
+
+    .hero h1{
+        font-size:28px;
+    }
+
+    .number{
+        font-size:30px;
+    }
+
+    .payments{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
