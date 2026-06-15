@@ -6,6 +6,72 @@
     <title>Venom123 | Cara Mengatasi Website Venom123 Tidak Bisa Dibuka Terbaru</title>
     <link rel="stylesheet" href="css/styleku.css">
     <style>
+      /* News List */
+.section-title {
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 12px 20px;
+}
+
+.news-card {
+    background: grey;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    background: #5a5a5a;
+}
+
+.news-card:hover .news-title {
+    color: #fff;
+}
+.news-card img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.news-info {
+    flex: 1;
+}
+
+.news-category {
+    color: #6E6E6E;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news-title {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.news-time {
+    color: #999;
+    font-size: 12px;
+}
+
         .image-container {
     width: 100%;
     max-width: 1200px;
@@ -138,8 +204,7 @@
     </section>
     <article>
         <div class="image-container">
-    <img
-        src="https://venom123.io/images/tutorial-mencari-link-venom123.webp"
+    <img src="https://venom123.io/images/cara-akses-situs-venom123.webp"
         alt="Squidward dan Venom mencari link Venom123 di Google"
         class="responsive-image">
 </div>
@@ -148,7 +213,6 @@
       <br>
 <p>Website yang tidak dapat diakses dapat disebabkan oleh berbagai faktor, mulai dari masalah koneksi internet, gangguan browser, hingga perubahan alamat situs. Jika Anda mengalami kendala saat membuka <a href="https://venom.io/cara-akses-situs-venom123">Venom123</a>, ada beberapa langkah sederhana yang dapat dilakukan untuk mengatasinya.</p>
 <p>Panduan ini membantu Anda mengidentifikasi penyebab masalah dan menemukan solusi yang tepat agar akses kembali normal.</p>
-<p><img alt="Cara Mengakses Situs Venom123" src="https://venom123.io/images/cara-akses-situs-venom123.webp"></p>
       <br>
 <h2>Penyebab Website Venom123 Tidak Dapat Dibuka</h2>
       <br>
